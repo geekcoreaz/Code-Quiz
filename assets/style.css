@@ -1,0 +1,56 @@
+/* nav bar */
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+#nav {
+    display: block;
+    background-color: white;
+    display: inline-block;
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* main section */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#quizBody {
+    margin-top: 5%;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: purple;
+}
+
+.btn-primary {
+    border: none;
+    background-color: purple;
+    color: white;
+    padding: 10px 10px;
+    margin: 10px 2px;
+}
+
+.btn-primary:hover {
+    background-color: purple;
+    opacity: 70%;
+}
+
+#quiz {
+    text-align: center;
+}

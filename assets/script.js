@@ -64,8 +64,7 @@ document.querySelector("#getScore").addEventListener("click", getScore);
 
 function getScore() {
     let quizContent = `
-<h2>` + localStorage.getItem("highScoreInit") + `'s highscore is:</h2>
-<h1>` + localStorage.getItem("highScore") + `</h1>
+<h3>` + localStorage.getItem("highScoreInit") + ` got a highscore of ` + localStorage.getItem("highScore") + `</h3>
 
 <button class="btn btn-primary btn-lg" onclick="reload()">Play Again!</button>
 `;

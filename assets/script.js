@@ -29,7 +29,7 @@ let questions = [{
 let score = 0;
 let question = -1;
 let timeLeft = 0;
-let timer = null;
+let timer = 0;
 
 //starts the countdown timer once user clicks the 'start' button
 document.querySelector("#start").addEventListener("click", start);
@@ -120,7 +120,7 @@ function endGame() {
 
     let quizContent = `
 <h2>Game over!</h2>
-<p>You scored ` + score + ` %!</p>
+<p>You scored ` + score + `%!</p>
 <p>You got ` + score / 20 + ` questions correct!</p>
 <input type="text" id="name" placeholder="Your initials"> 
 <button  class="btn btn-primary btn-lg" onclick="setScore()">Set score!</button>`;
